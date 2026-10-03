@@ -1,0 +1,73 @@
+{
+  "repository": "auto-calc",
+  "date": "2026-10-03",
+  "sources": [
+    {
+      "repo": "auto-lang",
+      "commit": "17292c07e792e80d4e4da5495fc3fc2917e8aa1e",
+      "path": "examples/ui/011-calculator",
+      "primary": true,
+      "fileCount": 9,
+      "pacFields": {
+        "name": "calculator",
+        "version": "1.0.0",
+        "scene": "ui",
+        "render": "vue",
+        "icon": "calculator",
+        "title": "Calculator",
+        "title_zh": "计算器",
+        "accent": "indigo",
+        "window": "fit",
+        "desktop": "true"
+      },
+      "files": [
+        {
+          "sourcePath": "examples/ui/011-calculator/README.md",
+          "path": "README.md",
+          "sha256": "5343176f17879011ce10fe11b0d5dc8b3fc345d82e8919b4a4c389833bd3334f"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/pac.at",
+          "path": "pac.at",
+          "sha256": "313a3957c0bed8e192f58032817a81bd20db132e02d66bd38762dbd98f81b534"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/src/front/app.at",
+          "path": "src/front/app.at",
+          "sha256": "e1aa30a8cd11c1379e9933a5feee521970b8a04ce274e976c402b1a3e35a6cec"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/src/front/prog_util.at",
+          "path": "src/front/prog_util.at",
+          "sha256": "cb4298175a6314e6ae4de5f7ab1a1e5e2b518dd0519e7956fb083594b67d3308"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/tests/acceptance.atd",
+          "path": "tests/acceptance.atd",
+          "sha256": "252c40e438aaf74c9fc42e77135296610c653c5e72a8c2d7f5c82b321c7697bd"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/tests/desktop_mcp.py",
+          "path": "tests/desktop_mcp.py",
+          "sha256": "22fdfbb416307fb12ca7d51bbef795396390ba8a00c7deb1181286e012507a91"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/tests/test_011_vm.py",
+          "path": "tests/test_011_vm.py",
+          "sha256": "809287da2a13305597487fe610c10f5aca3a383e10498c5766d2a26c964ac2f4"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/tests/test_011_vue.mjs",
+          "path": "tests/test_011_vue.mjs",
+          "sha256": "49e362f7bfdefbc7156109e8ee2db7d2803f678e717e3912a277973e88a5e6b3"
+        },
+        {
+          "sourcePath": "examples/ui/011-calculator/tests/test_512_fit_remeasure.py",
+          "path": "tests/test_512_fit_remeasure.py",
+          "sha256": "3fd568c3d7c9267348970b03bc2aa9447d0f0c60eda89b421163e2de881d1cc3"
+        }
+      ]
+    }
+  ],
+  "note": "Exact committed source snapshots; packaging changes follow in a separate commit. References are not additional installed apps."
+}
